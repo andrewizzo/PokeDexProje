@@ -1,0 +1,97 @@
+.gradient {
+  background: rgb(253, 212, 0);
+  background: linear-gradient(39deg,
+      rgba(253, 212, 0, 1) 0%,
+      rgba(255, 255, 255, 0.67) 50%,
+      rgba(9, 42, 216, 1) 100%);
+  box-shadow: 10px 10px 30px 10px;
+  width: 80%;
+}
+
+.sizeImg {
+  width: 90%;
+  transition: 3s;
+}
+
+.sizeImg:hover{
+  transform: rotate(360deg);
+}
+
+
+
+.sizeImg:hover{
+  transform: rotate();
+
+}
+
+.sizeCustomTd {
+  width: 90px;
+}
+
+.scrollable-container {
+  max-height: 420px;
+  overflow-y: auto;
+  border-radius: 30px;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 30px;
+
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background-color: #eee;
+  border-radius: 100px;
+}
+
+.customMargin {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sizeCustomInput {
+  width: 270px;
+}
+
+.sizeCustomDivInput {
+  width: 300px;
+  height: 32px;
+}
+
+.sizeCustomType{
+  width: 80%;
+  height: 30px;
+}
+
+.sizeCustomType:hover{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.sizeCustomDivType{
+  width: 55%;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.customWidthLogo{
+  width: 50%;
+}
+
+.customWidthLogo:hover{
+  width: 70%;
+  height: 100%;
+}
